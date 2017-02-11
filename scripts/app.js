@@ -7,7 +7,3 @@ function toggleMenu() {
 	this.classList.toggle('is-open');
     body.classList.toggle('has-overlay');
 }
-
-//remove this two lines when Gayush gives challenges
-let card = document.querySelectorAll('.card');
-card[1].remove();
